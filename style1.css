@@ -1,0 +1,78 @@
+body {
+	background: url(img/bg.png) center top;
+	height: 100vh;
+	font-family: Bradley Hand, cursive;
+}
+.title_p {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    padding: 0 auto;
+    margin: 2% auto;
+}
+
+.content_p{
+	max-width: 80%;
+	font-size: 30px;
+	color: #646464;
+	text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.photos {
+	margin: 5%;
+}
+
+.reviews {
+	margin-top: 55px;
+}
+.rev__item {
+	width: 270px;
+	float: left;
+	text-align: center;
+	
+}
+.rev__item img {
+	width: 33vh;
+	height: 40vh;
+}
+.rev__words {
+	text-align: center;
+	color: #777;
+	font-size: 16px; 
+	line-height: 1.6em;
+	margin-left: 13px;
+	margin-right: 13px;
+	margin-top: 20px;
+}
+
+.rev__item p{
+	color: #000;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.rev__item:last-child {
+	float: right;
+}
+
+.rev__item:nth-child(2) {
+	margin-left: 20%;
+} 
+
+a:link {
+  color: #497DDD; 
+  border-bottom: 1px dashed; 
+}
+a:visited {
+  color: #fff;
+}
+a:hover {
+  color: #154088; 
+  border-bottom: .07em solid;
+}
+a:active {
+  color: #497DDD; 
+  border-bottom: 1px dashed;
+}

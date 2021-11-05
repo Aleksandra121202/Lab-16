@@ -1,0 +1,12 @@
+body {
+	background: url(img/bg.png) center top;
+	font-family: Bradley Hand, cursive;
+}
+.title_p {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    padding-top: 40vh ;
+    margin: 0;
+
+}
